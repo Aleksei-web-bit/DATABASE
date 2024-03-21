@@ -61,3 +61,31 @@ SELECT userId, COUNT(*) FROM messages GROUP BY userId;
 */
 
 SELECT userName, COUNT(*) FROM messages JOIN  users ON messages.userId = users.userId GROUP BY userId;
+
+Вывод:
+
+serId GROUP BY userId;(*) FROM messages JOIN  users ON messages.userId = users.u
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+ userid | count 
+--------+-------
+      2 |     3
+      1 |     3
+(2 строки)
+
+ОШИБКА:  неоднозначная ссылка на столбец "userid"
+СТРОКА 1: ...IN  users ON messages.userId = users.userId GROUP BY userId;
+                                                                  ^
+test=# 
+
